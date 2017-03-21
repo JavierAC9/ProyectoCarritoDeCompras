@@ -1,0 +1,10 @@
+Información sobre la aplicación
+
+1-Para poder registrar productos y usuarios se debe iniciar sesión como Administrador.
+-El nombre del usuario Administrador es: Admin.
+-El password del usuario Administrador es: 12345.
+
+2-Se inicia sesión como usuario(puede ser con el usuario Administrador también), para
+poder ver la lista de productos registrados y la factura.
+
+ 

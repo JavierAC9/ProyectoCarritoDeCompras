@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	
+	<meta charset="utf-8">
+	<title>Login Administrador</title>
+	<meta name="description" content="Proyecto Final Javier Álvarez Chavarría HTML5">
+	<link rel="shortcut icon" type="image/x-icon" href="img/CartIcon.ico">
+	<link rel="stylesheet"  href="css/styles.css">
+	<script src="js/loginAdministrador.js"></script>
+	
+	
+</head>
+
+<body>
+
+	<div class="formcontainer">
+	<fieldset>
+	<form id="Form1" onsubmit="return login()">
+
+	 	<label>Usuario Administrador</label>
+	 	<input type="text" name="usuario" id="usuarioActual" required>
+	 	<br>
+	 	<br>
+	 	<label>Password</label>
+	 	<input type="password"  minlength="5" name="password" id="passwordActual" required>
+	 	<label title="Mínimo 5 caracteres">*<label>
+	 	<br>
+	 	<br>
+		<input type="submit" value="Iniciar sesión" class="boton" id="botonIniciar">
+
+	</form>
+	</fieldset>
+	</div>
+
+</body>
+
+</html>

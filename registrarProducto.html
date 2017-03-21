@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	
+	<meta charset="utf-8">
+	<title>Registrar Productos</title>
+	<meta name="description" content="Proyecto Final Javier Álvarez Chavarría HTML5">
+	<link rel="shortcut icon" type="image/x-icon" href="img/CartIcon.ico">
+	<link rel="stylesheet"  href="css/styles.css">
+	<script src="js/registrarProducto.js"></script>
+
+	
+</head>
+
+<body>
+
+	 
+
+	 <div class="formcontainer">
+
+	 <fieldset>
+	 <legend><h1>Registro de producto<img src="img/barCode3.png" class="logo"></h1></legend>
+		<form id="Form1" onsubmit="return registrarProducto()">
+	 		<label>Nombre articulo</label>
+	 		<input type="text" name="nombre" id="nombre" class="reset" required>
+	 		<br>
+	 		<br>
+	 		<label>Marca</label>
+	 		<input type="text" name="marca" id="marca" class="reset" required>
+	 		<br>
+	 		<br>
+	 		<label>Departamento</label>
+				<select id="depSelect">
+ 					<option value="Deportes y aire libre" id="1">Deportes y aire libre</option>
+  					<option value="Hogar" id="2">Hogar</option>
+  					<option value="Electrónica" id="3">Electrónica</option>
+  					<option value="Música" id="4">Música</option>
+  					<option value="Librería" id="5">Librería</option>
+  					<option value="Oficina" id="6">Oficina</option>
+  					<option value="Ropa y accesorios" id="7">Ropa y accesorios</option>
+  					<option value="Supermercado" id="8">Supermercado</option>
+  					<option value="Jardinería" id="9">Jardinería</option>
+  					<option value="Videojuegos" id="10">Videojuegos</option>
+				</select>
+	
+			<br>
+	 		<br>
+	 		<label>Precio</label>
+	 		<input type="number" step="0.01" name="edad" id="precio" class="reset" required >
+	 		<br>
+	 		<br>
+	
+			<input type="submit" value="Registrar" class="boton" >
+	 	
+		</form> 	
+	
+	</fieldset>
+
+	</div>
+
+	<div class="monitorSoloRP" >
+		<br>
+	 	<br>
+      	<textarea rows="18" cols="35" id="monitor" ></textarea>
+        <br>
+        <br>
+    </div>
+	
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+
+body{
+	background-color: #00436C;
+}
+
+label{
+	font-weight: bold;
+}
+
+
+td{
+	padding: 10px;
+}
+
+.nolabel{
+	font-weight: normal;
+	float: right;
+}
+
+.logo{
+	padding-left: 10px;
+	width: auto;
+	height: 32px;
+}
+
+.formcontainer{
+	float: left;
+	width: 40%;
+}
+
+#productoContainer{
+	float: left;
+	width: 100%;
+}
+
+fieldset{
+	color: lightgrey;
+	margin-top: 20%;
+	width: 350px;
+	margin-left: 75%;
+	padding: 40px;
+	background-color: #003150;
+	border-style: none;
+	border-radius: 10px;
+}
+
+#fieldsetRegistrarUsuario{
+	margin-top: 10px;
+	width: 350px;
+	padding: 40px;
+	background-color: #003150;
+}
+
+#fieldsetVerProductos{
+	display: block;
+    margin: 0 10px;
+    float: left;
+	margin-top: 15px;
+	width: 45%;
+	float: left;
+	padding: 30px;
+	background-color: #003150;
+}
+
+
+#fieldsetVerProductos2{
+	display: block;
+    margin: 0 10px;
+    float: left;
+	margin-top: 15px;
+	width: 42%;
+	float: left;
+	padding: 30px;
+	background-color: #003150;
+}
+
+
+.verProductos{
+	position: relative;
+    overflow: hidden;
+}
+
+.producto{
+	border-style: solid;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+
+fieldset form input{
+	float: right;
+}
+
+
+h2{
+	text-align: center;
+}
+
+
+.boton {
+ width: 50%;
+ height: 50%;
+ margin-top: 10px;
+ margin-left: 25%;
+ border: none;
+ background: #848484;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+}
+
+.boton:hover {
+ background: #00436C;
+ color: #848484;
+ box-shadow: inset 0 0 0 3px #848484;
+}
+
+.botonAgregarACarrito{
+ float: right;
+ width: 70px;
+ border: none;
+ margin-left: 15px;
+ margin-bottom: 0;
+ background: #848484;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 14px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+}
+
+.botonAgregarACarrito:hover{
+ background: #00436C;
+ color: #848484;
+ box-shadow: inset 0 0 0 3px #848484;
+}
+
+#depSelect{
+	float: right;
+}
+
+.monitorSoloRP{
+	margin-right: 150px;
+	margin-top: 90px;
+	float: right;
+}
+
+.monitorSoloRU{
+	margin-right: 150px;
+	margin-top: 35px;
+	float: right;
+}
+
+#totalProductos{
+	font-size: 18px;
+	font-weight: bolder;
+	float: right;
+}
+
+
+
+
+

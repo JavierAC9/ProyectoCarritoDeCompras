@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	
+	<meta charset="utf-8">
+	<title>Registrar Usuarios</title>
+	<meta name="description" content="Proyecto Final Javier Álvarez Chavarría HTML5">
+	<link rel="shortcut icon" type="image/x-icon" href="img/CartIcon.ico">
+	<link rel="stylesheet"  href="css/styles.css">
+	<script src="js/registrarUsuario.js"></script>
+	
+</head>
+
+<body>
+
+	 
+
+	 <div class="formcontainer">
+
+	 <fieldset id="fieldsetRegistrarUsuario">
+	 <legend><h1>Registro de usuario<img src="img/profile2.png" class="logo"></h1></legend>
+			<form id="Form1" onsubmit="return registrarUsuario()">
+	 			<label>Nombre</label>
+	 			<input type="text" name="nombre" id="nombre" class="reset" required>
+	 			<br>
+	 			<br>
+	 			<label>Primer apellido</label>
+	 			<input type="text" name="apellido1" id="apellido1" class="reset" required>
+	 			<label title="Por favor introduzca el primer apellido">*<label>
+	 			<br>
+	 			<br>
+	 			<label>Segundo apellido</label>
+	 			<input type="text" name="apellido2" id="apellido2" class="reset" required>
+	 			<label title="Por favor introduzca el segundo apellido">*<label>
+	 			<br>
+	 			<br>
+	 			<label>Nombre usuario</label>
+	 			<input type="text" name="nombreUsuario" id="nombreUsuario" class="reset" required>
+	 			<br>
+	 			<br>
+	 			<label>Password</label>
+	 			<input type="password"  minlength="5" name="password" id="password"  class="reset" required>
+	 			<label title="Mínimo 5 caracteres">*<label>
+	 			<br>
+	 			<br>
+	 			<label>Email</label>
+	 			<input type="email" placeholder="Ej nombre@dominio.com" name="email" id="email" class="reset" required>
+	 			<br>
+	 			<br>
+	 			<label>Género</label>
+	 			<br>
+	 			<input type="radio" name="genero" value="Otro" id="otro"> <div class="nolabel">Otro</div>
+	 			<input type="radio" name="genero" value="Femenino" id="femenino"> <div class="nolabel">Femenino</div>
+	 			<input type="radio" name="genero" value="Masculino" id="masculino" checked > <div class="nolabel">Masculino</div>		
+	 			<br>
+	 			<br>
+	 			<label>Fecha de nacimiento</label>
+	 			<input type="date" name="fechanac" id="fecha"  class="reset">
+	 			<br>
+	 			<br>
+	 			<label>Edad</label>
+	 			<input type="number" min="15" max="120" name="edad" required id="edad" class="reset">
+	 			<br>
+	 			<br>
+	 			<label>Número de teléfono: </label>
+        		<input type="text" pattern="\d{8}" placeholder="Ej. 87548569" maxlength="8" required id="tel" class="reset">
+        		<label title="Por favor introduzca solo números">*<label>
+        		<br>
+        		<br>
+	 			<label>Dirección física</label>
+	 			<input type="text" maxlength="50" name="direccion" id="direccion"  class="reset" required>
+	 			<label title="Máximo 50 caracteres">*<label>
+  				<br>
+	 			<br>
+
+	 			<input type="submit" value="Registrar" class="boton" >
+	
+			</form>
+
+	</fieldset>
+	</div>
+
+
+	<div class="monitorSoloRU" >
+   		<textarea rows="36" cols="35" id="monitor" ></textarea>
+        <br>
+        <br>
+    </div>
+
+
+
+</body>
+
+</html>
